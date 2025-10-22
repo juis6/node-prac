@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-let people = require('../data')
+let { people } = require('../data')
 
 // GET всіх людей
 router.get('/', (req, res) => {
